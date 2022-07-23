@@ -1,0 +1,33 @@
+
+//--> IT IS A COMMENT
+//  R0-R13-> 		
+//  R15-BX IN THIS REGISTER WE SAVE THE RAM ADDRESS WHERE WE WANT TO WRITE OR READ
+//  R14-THIS IS WHERE THE DATA FROM RAM IS STORED, IT IS DESIRABLE NOT TO USE IT WHEN WRITEING A PROGRAM 
+
+//   INSTRUCTIONS
+
+//   FIBONACCI N NUMBER FINDING ALGORITHM
+
+			// r0 data is a counter 
+	mov:10,r0;
+	sub:r0,2,r0;
+			// first fibonacci number 
+	mov:0,r1;
+			// second nnumber 
+	mov:1,r2;
+	add:r1,r2,r3;
+			// counter--
+	sub:r0,1,r0;
+	add:r2,r3,r4;
+			// counter--
+	sub:r0,1,r0;
+	mov:r4,r2;
+	mov:r3,r1;
+			// jump line 5 if r0!=0 
+	jne:r0,0,4;
+			// answer is r10 data 
+	mov:r4,r10;
+
+
+
+/////    THIS CODEE WORKS BECAUSE IT IS A COMMENT 
