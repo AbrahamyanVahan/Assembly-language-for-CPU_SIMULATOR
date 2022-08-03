@@ -1,3 +1,4 @@
+You must write your program in "Assembler_INPUT.txt" 
 
 # Assembly language instructions
 ###     |XXXXXXXX|YYYYYYYY|ZZZZZZZZ|KKKKKKKK| ---->32 bit
@@ -34,12 +35,3 @@
 | XXXX0110 | MULT |
 | XXXX0101 | SHL  |
 | XXXX0111 | SHR  |
-
-| CONDITION | TYPE |                        
-| ----- | ------- |
-| XXXX1000 | JE |
-| XXXX1001 | JNE |
-| XXXX1010 | JG |
-| XXXX1100 | JGE  |
-| XXXX1011 | JL  |
-| XXXX1110 | JLE  |
