@@ -1,4 +1,4 @@
-You must write your program in "Assembler_INPUT.txt" 
+#You must write your program in "Assembler_INPUT.txt" 
 
 # Assembly language instructions
 ###     |XXXXXXXX|YYYYYYYY|ZZZZZZZZ|KKKKKKKK| ---->32 bit
