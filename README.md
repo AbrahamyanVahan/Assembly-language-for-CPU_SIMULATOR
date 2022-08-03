@@ -1,8 +1,22 @@
 # You must write your program in "Assembler_INPUT.txt" 
 
 # Assembly language instructions
-###     |XXXXXXXX|YYYYYYYY|ZZZZZZZZ|KKKKKKKK| ---->32 bit
-###       _____________       source1 ___         source2 _ destinaton
+### Instruction size is 32 bit
+
+| INSTRUCTION             |           SIZE |
+| -----                   | -------         |
+|  XXXXXXXXYYYYYYYYZZZZZZZZKKKKKKKK | 32 bit|
+
+
+
+| INSTRUCTION  |        SIZE |   SIGNIFICANCE |
+| -----            | ------- |------- |
+|  XXXXXXXX |    first 8 bit |command type |
+| YYYYYYYY |   second 8 bit  |source 1 |
+| ZZZZZZZZ |    third 8 bit  |source 2 |
+| KKKKKKKK |    fourth 8 bit |destination |
+
+
 
 
 | IMMID OR REG | SOURCE 1 |SOURCE 2|
