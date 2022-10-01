@@ -1,4 +1,4 @@
-# You must write your program in "Assembler_INPUT.txt" 
+# You need write your program in "Assembler_INPUT.txt" 
 
 # Assembly language instructions
 ### Instruction size is 32 bit
